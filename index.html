@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
     <header class="header">
-        <div class="title_header">
-            <h1 class="title_header-title"> Viaja y disfruta tu vida al MÁXIMO</h1>
-        </div>
+
         <nav>
+            <div class="title_header">
+                <h1>TRAVELLO</h1>
+            </div>
             <ul>
                 <li>
                     <a href="#">Destinos</a>
@@ -24,21 +26,31 @@
                 <li>
                     <a href="#">Resevervaciones</a>
                 </li>                
-                <li>
-                    <a href="#">Iniciar sesión</a>
+                <li >
+                    <a class="login" href="#">Iniciar sesión</a>
                 </li>                
-                <li>
-                    <a href="#">Registrarse</a>
+                <li >
+                    <a class="login" href="#">Registrarse</a>
                 </li>
             </ul>
         </nav>
         <section class="presentacion">
-            <div class="presentacion_content">
-                <p class="presentacion_content-content"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto qui, dolor laboriosam distinctio, itaque cumque iste consequuntur tempore nesciunt ducimus molestiae, cum eum earum iure deserunt explicabo maiores aliquid. Provident.</p>
+            <div class="tituloPresentacion">
+                <div class="headerInfo">
+                    <h1 class="title_header-title"> Viaja y disfruta tu vida al MÁXIMO</h1>
+                    <div class="presentacion_content">
+                        <p class="presentacion_content-content"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto qui, dolor laboriosam distinctio, itaque cumque iste consequuntur tempore nesciunt ducimus molestiae, cum eum earum iure deserunt explicabo maiores aliquid. Provident.</p>
+                    </div>
+                    <div class="presentacion_content-image">
+                        <button>explorar</button>
+                    </div>
+                </div>
+                <div class="imagesPresentacion">
+                    <img class="roma" src="Images\roma.png" alt="">
+                    <img class="paris" src="Images\paris.jpg" alt="">
+                </div>
             </div>
-            <div class="presentacion_content-image">
-                <button>explorar</button>
-            </div>
+           
         </section>
     </header>
 </body>
